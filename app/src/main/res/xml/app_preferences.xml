@@ -1,0 +1,21 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="General">
+
+        <EditTextPreference
+            android:title="Network IP"
+            android:summary="This ip will use in all connections"
+            android:key="IP"
+            android:defaultValue="10.42.0.1" />
+
+        <EditTextPreference
+            android:title="Network PORT"
+            android:summary="This port will use in all connections"
+            android:key="PORT"
+            android:defaultValue="8080"
+            android:numeric="integer" />
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen >
